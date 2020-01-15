@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+
+<table id = "table">
+    <thead id="firstTr">
+        <tr class="capture">
+            <td>ID</td>
+            <td>First name</td>
+            <td>Last name</td>
+            <td>Age</td>
+        </tr>
+    </thead>
+</table>
+
+
+<div class="form-group">
+        <label for="userId">ID</label>
+            <input id="userId" type="text" placeholder="ID">
+
+        <label for="firstName">First Name</label>
+            <input id="firstName" type="text" placeholder="First Name">
+
+        <label for="lastName">Last Name</label>
+            <input id="lastName" type="text" placeholder="Last Name">
+
+        <label for="age">Age</label>
+            <input id="age" type="number" placeholder="Age">
+</div>
+
+<div class="buttons">
+
+    <button onclick="addEnd()">     AddEnd      </button>
+    <button onclick="addStart()">   AddStart    </button>
+    <button onclick="addToMiddle()">AddToMiddle </button>
+    <button onclick="saveData()">   Save        </button>
+    <button onclick="read()">       Read        </button>
+    <button onclick="clearTable()"> Clear       </button>
+</div>
+
+
+</body>
+</html>
